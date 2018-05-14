@@ -36,7 +36,31 @@
 <?php
 $id = $_GET['id'];
 
+$servername = "localhost:3306";
+$username = "root";
+$password = "";
+$dbname = "products";
 
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = mysqli_query($conn,"SELECT * FROM uni_prod WHERE id='$id'");
+$row = mysqli_fetch_row($sql);
+
+    $name = $row[1];
+    $quantity = $row[2];
+    $wholesale = $row[3];
+    $retail = $row[4];
+    $length = $row[6];
+    $alt_name = $row[8];
+    $pic_url = $row[9];
+    $etsy = $row[10];
+
+mysqli_close($conn);
 ?>
 
 </body>
