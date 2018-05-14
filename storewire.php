@@ -33,6 +33,7 @@
 
 <h1>Store: Wire Wrapped Creations</h1>
 <p>Each picture is a link to the Etsy page for that item.</p>
+<p>The words below each picture are a link to the item's page on this web site.</p>
 
 
 <?php
@@ -48,7 +49,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT name, pic_url, etsy_page, alt_name FROM wire_prod";
+$sql = "SELECT name, pic_url, etsy_page, alt_name, ind_page FROM wire_prod";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -58,13 +59,16 @@ if ($result->num_rows > 0) {
         $p = $row["pic_url"];
         $e = $row["etsy_page"];
         $a = $row["alt_name"];
+        $i = $row["ind_page"];
         ?>
 
         <div class="gallery">
             <a target="_blank" href="<?php echo $e ?>">
                 <img src="<?php echo $p ?>" alt="<?php echo $a ?>" width="300" height="200">
             </a>
-            <div class="desc"><?php echo $n ?></div>
+            <a href="<?php echo $i ?>">
+                <div class="desc"><?php echo $n ?></div>
+            </a>
         </div>
 
         <?php

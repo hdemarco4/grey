@@ -34,8 +34,8 @@
 <p></p>
 
 <?php
-$d = $_GET['id'];
-echo $d;
+$id = $_GET['id'];
+
 
 ?>
 
