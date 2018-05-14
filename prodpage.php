@@ -63,5 +63,9 @@ $row = mysqli_fetch_row($sql);
 mysqli_close($conn);
 ?>
 
+    <img src="<?php echo $pic_url ?>" alt="<?php echo $alt_name ?>" width=500>
+    <a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a>
+
+
 </body>
 </html>
