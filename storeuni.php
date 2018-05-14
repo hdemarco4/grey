@@ -65,9 +65,9 @@ if ($result->num_rows > 0) {
             <a target="_blank" href="<?php echo $e ?>">
                 <img src="<?php echo $p ?>" alt="<?php echo $a ?>" width="300" height="200">
             </a>
-            <form>
-                <div class="desc" formaction="prodpage.php?id={$i}"> <?php echo $n ?> </div>
-            </form>
+            <a href="prodpage.php?id={$i}">
+                <div class="desc"> <?php echo $n ?> </div>
+            </a>
         </div>
 
 <?php
