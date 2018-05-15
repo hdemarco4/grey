@@ -1,3 +1,31 @@
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 25%;
+    margin: 10px;
+    border: 1px solid #555;
+}
+
+.right {
+    width: 25%;
+    margin: 10px;
+    border: 1px solid #555;
+}
+
+.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 body {
     background-color: #f1f1f1;
@@ -10,10 +38,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
     background-color: #f1f1f1;
     border: 1px solid #555;
-    float: right;
+
 }
 
 li a {
@@ -38,16 +65,6 @@ li:last-child {
 }
 /* End Nav Bar*/
 
-/*Left bar*/
-div.left{
-    width: 200px;
-    float: left;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #555;
-    height: max-content;
-}
-/*End Left bar*/
 
 h1{
     text-align: center;

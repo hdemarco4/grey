@@ -48,7 +48,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT name, pic_url, etsy_page, alt_name, ind_page FROM uni_prod";
+$sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM uni_prod";
 $result = $conn->query($sql);
 
 
@@ -56,15 +56,17 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         $n = $row["name"];
-        $p = $row["pic_url"];
+        $p = 'pics/' . $row["id"] . ' c';
         $e = $row["etsy_page"];
         $a = $row["alt_name"];
         $i = $row["ind_page"];
+        $qs = glob($p . "*.{png,JPG}",GLOB_BRACE );
+        foreach($qs as $q){
         ?>
 
         <div class="gallery">
             <a target="_blank" href="<?php echo $e ?>">
-                <img src="<?php echo $p ?>" alt="<?php echo $a ?>" width="300" height="200">
+                <img src="<?php echo $q ?>" alt="<?php echo $a ?>" width="300" height="200">
             </a>
             <a href="<?php echo $i ?>">
                 <div class="desc"> <?php echo $n ?> </div>
@@ -73,7 +75,7 @@ if ($result->num_rows > 0) {
 
 <?php
 
-	}
+	}}
 } else {
     echo "0 results";
 }

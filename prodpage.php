@@ -31,7 +31,7 @@
 </div>
 <!--End Left bar-->
 
-<p></p>
+
 
 <?php
 $id = $_GET['id'];
@@ -57,14 +57,24 @@ $row = mysqli_fetch_row($sql);
     $retail = $row[4];
     $length = $row[6];
     $alt_name = $row[8];
-    $pic_url = $row[9];
+    $pic_url = 'pics/' . $row[0] . ' ';
     $etsy = $row[10];
 
+    $qs = glob($pic_url . "*.{png,JPG}",GLOB_BRACE );
+    foreach($qs as $q){
+        ?>
+
+        <div>
+            <img src="<?php echo $q ?>" alt="<?php echo $alt_name ?>" style="width:300px;float:left;">
+        </div>
+
+<?php
+}
 mysqli_close($conn);
 ?>
 
-    <img src="<?php echo $pic_url ?>" alt="<?php echo $alt_name ?>" width=500>
-    <a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a>
+<p><a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a></p>
+<p>The price for this piece is $<?php echo $retail?></p>
 
 
 </body>
