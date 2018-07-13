@@ -5,6 +5,7 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
 
 </head>
 
@@ -60,24 +61,20 @@
 
             <p><a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a></p>
             <p>The price for this piece is $<?php echo $retail?></p>
+            <p><?php echo file_get_contents($desc)?></p>
 
         <?php
-
-        echo file_get_contents($desc);
-
 
         $qs = glob($pic_url . "*.{png,JPG,jpg,PNG}",GLOB_BRACE );
         foreach($qs as $q){
             ?>
 
-            <div>
-                <img src="<?php echo $q ?>" alt="<?php echo $alt_name ?>" style="width:300px;float:left;padding:15px;">
+            <div class="gallery2">
+                <img src="<?php echo $q ?>" alt="<?php echo $alt_name ?>" width="180" height="auto">
             </div>
 
             <?php
         }
-
-
 
 
         mysqli_close($conn);
