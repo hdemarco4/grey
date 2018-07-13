@@ -3,9 +3,9 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #bebbcd;
     font-family: Verdana, Helvetica, sans-serif;
-    -webkit-text-fill-color: blueviolet;
+    -webkit-text-fill-color: black;
 }
 
 
@@ -30,6 +30,7 @@ body {
 .middle {
     width: 57%;
 }
+
 
 /* Clear floats after the columns */
 .row:after {

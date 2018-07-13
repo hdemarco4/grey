@@ -11,14 +11,14 @@
 <body>
 
 <a href="index.php">
-	<img src="mylogo.gif" alt="Logo" style="display: block;">
+	<img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
 </a>
 
 <div class="row">
     <!--Left bar-->
     <div class="column left">
-        <a href="https://www.etsy.com/shop/GreyRavensCastle">
-            Hosted on <img src="etsy logo.jpg" alt="Etsy Logo" width="180">
+        <a target="_blank" href="https://www.etsy.com/shop/GreyRavensCastle">
+            Hosted on <img src="imgs/etsy logo.jpg" alt="Etsy Logo" width="180">
         </a>
     </div>
     <!--End Left bar-->
@@ -28,12 +28,12 @@
 
         <a href="storeuni.php">
             <p>My Unique Creations</p>
-            <img src="uni.gif" alt="Snowflake Necklace" width="400" >
+            <img src="imgs/uni.gif" alt="Snowflake Necklace" width="400" >
         </a>
 
         <a href="storewire.php">
             <p>My Wire Wrapped Creations</p>
-            <img src="wire.gif" alt="Wire Wrapped Donut Necklace" width="400" >
+            <img src="imgs/wire.gif" alt="Wire Wrapped Donut Necklace" width="400" >
         </a>
 
     </div>

@@ -11,14 +11,14 @@
 <body>
 
 <a href="index.php">
-    <img src="mylogo.gif" alt="Logo" style="display: block;">
+    <img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
 </a>
 
 <div class="row">
     <!--Left bar-->
     <div class="column left">
-        <a href="https://www.etsy.com/shop/GreyRavensCastle">
-            Hosted on <img src="etsy logo.jpg" alt="Etsy Logo" width="180">
+        <a target="_blank" href="https://www.etsy.com/shop/GreyRavensCastle">
+            Hosted on <img src="imgs/etsy logo.jpg" alt="Etsy Logo" width="180">
         </a>
     </div>
     <!--End Left bar-->
@@ -30,7 +30,7 @@
         $servername = "localhost:3306";
         $username = "root";
         $password = "";
-        $dbname = "products";
+        $dbname = "working";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -39,7 +39,7 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = mysqli_query($conn,"SELECT * FROM uni_prod, wire_prod, solder_prod WHERE uni_prod.id='$id' or wire_prod.id='$id' or solder_prod.id='$id'");
+        $sql = mysqli_query($conn,"SELECT * FROM products WHERE id='$id'");
         $row = mysqli_fetch_row($sql);
 
         $name = $row[1];
@@ -49,23 +49,41 @@
         $length = $row[6];
         $alt_name = $row[8];
         $pic_url = 'pics/' . $row[0] . ' ';
+        $doc_url = 'docs/' . $row[0] . ' ';
         $etsy = $row[9];
+
+        $desc = $doc_url . 'd.txt';
+
+        ?>
+
+            <h2> <?php echo $name?> </h2>
+
+            <p><a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a></p>
+            <p>The price for this piece is $<?php echo $retail?></p>
+
+        <?php
+
+        echo file_get_contents($desc);
+
 
         $qs = glob($pic_url . "*.{png,JPG,jpg,PNG}",GLOB_BRACE );
         foreach($qs as $q){
             ?>
 
             <div>
-                <img src="<?php echo $q ?>" alt="<?php echo $alt_name ?>" style="width:300px;float:left;">
+                <img src="<?php echo $q ?>" alt="<?php echo $alt_name ?>" style="width:300px;float:left;padding:15px;">
             </div>
 
             <?php
         }
+
+
+
+
         mysqli_close($conn);
         ?>
 
-        <p><a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a></p>
-        <p>The price for this piece is $<?php echo $retail?></p>
+
 
 
     </div>

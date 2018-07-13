@@ -12,14 +12,14 @@
 <body>
 
 <a href="index.php">
-    <img src="mylogo.gif" alt="Logo" style="display: block;">
+    <img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
 </a>
 
 <div class="row">
     <!--Left bar-->
     <div class="column left">
-        <a href="https://www.etsy.com/shop/GreyRavensCastle">
-            Hosted on <img src="etsy logo.jpg" alt="Etsy Logo" width="180">
+        <a target="_blank" href="https://www.etsy.com/shop/GreyRavensCastle">
+            Hosted on <img src="imgs/etsy logo.jpg" alt="Etsy Logo" width="180">
         </a>
     </div>
     <!--End Left bar-->
@@ -33,7 +33,7 @@
         $servername = "localhost:3306";
         $username = "root";
         $password = "";
-        $dbname = "products";
+        $dbname = "working";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -42,7 +42,7 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM wire_prod";
+        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE id BETWEEN 'H10025' AND 'H10032'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -58,10 +58,10 @@
                     ?>
 
                     <div class="gallery">
-                        <a target="_blank" href="<?php echo $e ?>">
+                        <a target="_blank" href="<?php echo $i ?>">
                             <img src="<?php echo $q ?>" alt="<?php echo $a ?>" width="300" height="200">
                         </a>
-                        <a href="<?php echo $i ?>">
+                        <a target="_blank" href="<?php echo $i ?>">
                             <div class="desc"><?php echo $n ?></div>
                         </a>
                     </div>
