@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Store: Wire Wrapped Creations</title>
+    <title>Store: Unique Creations</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
+
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="gallery.css">
@@ -25,9 +28,7 @@
     <!--End Left bar-->
 
     <div class="column middle">
-        <h1>Store: Unique Creations</h1>
-        <p>Each picture is a link to the Etsy page for that item.</p>
-        <p>The words below each picture are a link to the item's page on this web site.</p>
+        <h1>Unique Creations</h1>
 
         <?php
         $servername = "localhost:3306";
