@@ -28,7 +28,7 @@
     <!--End Left bar-->
 
     <div class="column middle">
-        <h1>Unique Creations</h1>
+        <h1>Beaded Creations</h1>
 
         <?php
         $servername = "localhost:3306";

@@ -29,8 +29,8 @@
     <div class="column middle">
         <h1>Store</h1>
 
-        <a href="storeuni.php">
-            <p>My Unique Creations</p>
+        <a href="storebead.php">
+            <p>My Beaded Creations</p>
             <img src="imgs/uni.gif" alt="Snowflake Necklace" width="400" >
         </a>
 
