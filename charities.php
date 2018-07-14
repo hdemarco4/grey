@@ -42,7 +42,12 @@
         <!--Nav list-->
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="storemain.php">Store</a></li>
+            <li class="dropdown">
+                <a href="storemain.php" class="dropbtn">Store</a>
+                <div class="dropdown-content">
+                    <a href="storebead.php">Beaded Creations</a>
+                    <a href="storewire.php">Wire Wrapped Creations</a>
+                </div></li>
             <li><a href="about.php">About</a></li>
             <li><a href="charities.php">Charities</a></li>
         </ul>
