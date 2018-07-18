@@ -27,8 +27,9 @@
     <!--End Left bar-->
 
     <div class="column middle">
-        <p>Welcome to my castle. Make your self at home. We are still building rooms for you.  Thank you for stopping by.</p>
-        <a href="storemain.php">Visit our store.</a>
+        <p>This is a castle filled with craftsmen and story tellers.  It starts with just a few rooms but will continue to grow.</p>
+        <p>Welcome. Make your self at home.</p>
+        <a href="jewelermain.php">Visit the Jeweler's Workshop.</a>
 
     </div>
 
@@ -37,10 +38,10 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li class="dropdown">
-                <a href="storemain.php" class="dropbtn">Store</a>
+                <a href="jewelermain.php" class="dropbtn">Jeweler's Workshop</a>
                 <div class="dropdown-content">
-                    <a href="storebead.php">Beaded Creations</a>
-                    <a href="storewire.php">Wire Wrapped Creations</a>
+                    <a href="jewelerbead.php">Beaded Creations</a>
+                    <a href="jewelerwire.php">Wire Wrapped Creations</a>
                 </div></li>
             <li><a href="about.php">About</a></li>
             <li><a href="charities.php">Charities</a></li>

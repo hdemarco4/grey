@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Store: Unique Creations</title>
+    <title>Jeweler's Workshop: Wire Wrapped Creations</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
@@ -15,7 +15,7 @@
 <body>
 
 <a href="index.php">
-	<img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
+    <img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
 </a>
 
 <div class="row">
@@ -28,7 +28,7 @@
     <!--End Left bar-->
 
     <div class="column middle">
-        <h1>Beaded Creations</h1>
+        <h1>Wire Wrapped Creations</h1>
 
         <?php
         $servername = "localhost:3306";
@@ -43,7 +43,7 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE id BETWEEN 'H10001' AND 'H10024'";
+        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE id BETWEEN 'H10025' AND 'H10032'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -63,7 +63,7 @@
                             <img src="<?php echo $q ?>" alt="<?php echo $a ?>" width="300" height="200">
                         </a>
                         <a target="_blank" href="<?php echo $i ?>">
-                            <div class="desc"> <?php echo $n ?> </div>
+                            <div class="desc"><?php echo $n ?></div>
                         </a>
                     </div>
 
@@ -82,10 +82,10 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li class="dropdown">
-                <a href="storemain.php" class="dropbtn">Store</a>
+                <a href="jewelermain.php" class="dropbtn">Jeweler's Workshop</a>
                 <div class="dropdown-content">
-                    <a href="storebead.php">Beaded Creations</a>
-                    <a href="storewire.php">Wire Wrapped Creations</a>
+                    <a href="jewelerbead.php">Beaded Creations</a>
+                    <a href="jewelerwire.php">Wire Wrapped Creations</a>
                 </div></li>
             <li><a href="about.php">About</a></li>
             <li><a href="charities.php">Charities</a></li>

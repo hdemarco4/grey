@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Store</title>
+<title>Jeweler's Workshop</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
@@ -27,15 +27,15 @@
     <!--End Left bar-->
 
     <div class="column middle">
-        <h1>Store</h1>
+        <h1>Jeweler's Workshop</h1>
 
-        <a href="storebead.php">
-            <p>My Beaded Creations</p>
+        <a href="jewelerbead.php">
+            <p>Beaded Creations</p>
             <img src="imgs/uni.gif" alt="Snowflake Necklace" width="400" >
         </a>
 
-        <a href="storewire.php">
-            <p>My Wire Wrapped Creations</p>
+        <a href="jewelerwire.php">
+            <p>Wire Wrapped Creations</p>
             <img src="imgs/wire.gif" alt="Wire Wrapped Donut Necklace" width="400" >
         </a>
 
@@ -46,10 +46,10 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li class="dropdown">
-                <a href="storemain.php" class="dropbtn">Store</a>
+                <a href="jewelermain.php" class="dropbtn">Jeweler's Workshop</a>
                 <div class="dropdown-content">
-                    <a href="storebead.php">Beaded Creations</a>
-                    <a href="storewire.php">Wire Wrapped Creations</a>
+                    <a href="jewelerbead.php">Beaded Creations</a>
+                    <a href="jewelerwire.php">Wire Wrapped Creations</a>
                 </div></li>
             <li><a href="about.php">About</a></li>
             <li><a href="charities.php">Charities</a></li>

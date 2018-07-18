@@ -28,8 +28,8 @@
 
     <div class="column middle">
         <h1>About Us</h1>
-        <h3>Heather D</h3>
-        <p>Combining her love of computers, bead art and a little bit of magick to bring you this website.</p>
+        <h3>Heather</h3>
+        <p>Jeweler and Castle Builder(web designer).</p>
 
     </div>
 
@@ -38,10 +38,10 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li class="dropdown">
-                <a href="storemain.php" class="dropbtn">Store</a>
+                <a href="jewelermain.php" class="dropbtn">Jeweler's Workshop</a>
                 <div class="dropdown-content">
-                    <a href="storebead.php">Beaded Creations</a>
-                    <a href="storewire.php">Wire Wrapped Creations</a>
+                    <a href="jewelerbead.php">Beaded Creations</a>
+                    <a href="jewelerwire.php">Wire Wrapped Creations</a>
                 </div></li>
             <li><a href="about.php">About</a></li>
             <li><a href="charities.php">Charities</a></li>
