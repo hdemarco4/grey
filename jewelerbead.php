@@ -1,31 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Jeweler's Workshop: Beaded Creations</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
-
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="gallery.css">
-
-</head>
-
-<body>
-
-<a href="index.php">
-	<img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
-</a>
+<?php
+include_once 'greyHead.php';
+?>
 
 <div class="row">
-    <!--Left bar-->
-    <div class="column left">
-        <a target="_blank" href="https://www.etsy.com/shop/GreyRavensCastle">
-            Hosted on <img src="imgs/etsy logo.jpg" alt="Etsy Logo" width="180">
-        </a>
-    </div>
-    <!--End Left bar-->
+    <?php
+    include_once 'leftColumn.php';
+    ?>
 
     <div class="column middle">
         <h1>Beaded Creations</h1>
@@ -43,7 +23,7 @@
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE id BETWEEN 'H10001' AND 'H10024'";
+        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE type LIKE 'bead'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -77,23 +57,11 @@
         ?>
     </div>
 
-    <div class="column right">
-        <!--Nav list-->
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li class="dropdown">
-                <a href="jewelermain.php" class="dropbtn">Jeweler's Workshop</a>
-                <div class="dropdown-content">
-                    <a href="jewelerbead.php">Beaded Creations</a>
-                    <a href="jewelerwire.php">Wire Wrapped Creations</a>
-                </div></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="charities.php">Charities</a></li>
-        </ul>
-        <!--End Nav list-->
-
-    </div>
+    <?php
+    include_once 'rightColumn.php';
+    ?>
 </div>
 
-</body>
-</html>
+<?php
+include_once 'greyFoot.php';
+?>

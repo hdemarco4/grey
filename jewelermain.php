@@ -1,30 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-<title>Jeweler's Workshop</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
-
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-
-<body>
-
-<a href="index.php">
-	<img src="imgs/mylogo.gif" alt="Logo" style="display: block;">
-</a>
+<?php
+include_once 'greyHead.php';
+?>
 
 <div class="row">
-    <!--Left bar-->
-    <div class="column left">
-        <a target="_blank" href="https://www.etsy.com/shop/GreyRavensCastle">
-            Hosted on <img src="imgs/etsy logo.jpg" alt="Etsy Logo" width="180">
-        </a>
-    </div>
-    <!--End Left bar-->
+    <?php
+    include_once 'leftColumn.php';
+    ?>
 
     <div class="column middle">
         <h1>Jeweler's Workshop</h1>
@@ -41,24 +22,12 @@
 
     </div>
 
-    <div class="column right">
-        <!--Nav list-->
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li class="dropdown">
-                <a href="jewelermain.php" class="dropbtn">Jeweler's Workshop</a>
-                <div class="dropdown-content">
-                    <a href="jewelerbead.php">Beaded Creations</a>
-                    <a href="jewelerwire.php">Wire Wrapped Creations</a>
-                </div></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="charities.php">Charities</a></li>
-        </ul>
-        <!--End Nav list-->
-
-    </div>
+    <?php
+    include_once 'rightColumn.php';
+    ?>
 </div>
 
 
-</body>
-</html>
+<?php
+include_once 'greyFoot.php';
+?>
