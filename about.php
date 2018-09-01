@@ -10,7 +10,9 @@ include_once 'greyHead.php';
     <div class="column middle">
         <h1>About Us</h1>
         <h3>Heather</h3>
-        <p>Jeweler and Castle Builder(web designer).</p>
+        <p>Jeweler and Castle Builder(web designer).
+            <br />
+            Contact me: greyraven1@gmail.com</p>
 
     </div>
 

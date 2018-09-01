@@ -11,17 +11,7 @@ include_once 'greyHead.php';
         <h1>Beaded Creations</h1>
 
         <?php
-        $servername = "localhost:3306";
-        $username = "root";
-        $password = "";
-        $dbname = "working";
-
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
+        include_once 'includes/dbh.inc.php';
 
         $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE type LIKE 'bead'";
         $result = $conn->query($sql);

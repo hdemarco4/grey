@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,15 +25,26 @@
         </a>
 
         <div class="login">
+            <?php
+                if(isset($_SESSION['u_email'])){
+                    echo '<form action="includes/logout.inc.php" method="POST">
+                            <button type="submit" name="submit">Logout</button>
+                           </form>';
 
-            <form>
-                <input type="text" placeholder="Enter Email" name="email" required>
-                <input type="password" placeholder="Enter Password" name="pwd" required>
+                }else {
+                    echo '<form action="includes/login.inc.php" method="POST">
+                            <input type="text" placeholder="Enter Email" name="email" required>
+                            <input type="password" placeholder="Enter Password" name="pwd" required>
 
-                <button type="submit" name="submit">Login</button>
+                            <button type="submit" name="submit">Login</button>
 
-            </form>
-            <a href="register.php" target="_blank"><button name="register">Register</button></a>
+                           </form>
+                           <a href="register.php"><button name="register">Register</button></a>';
+                }
+            ?>
+
+
+
         </div>
 
     </div>
