@@ -2,7 +2,7 @@
 
 session_start();
 
-if(insset($_POST['submit'])) {
+if(isset($_POST['submit'])) {
     include_once 'dbh.inc.php';
 
     $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -24,7 +24,7 @@ if(insset($_POST['submit'])) {
                 exit();
             } elseif($hashedPwdCheck == true) {
                 //Log in user
-                $_SESSION['u_email'] = $row[email];
+                $_SESSION['u_email'] = $row[$email];
                 header("Location: ../index.php?login=success");
                 exit();
             }
