@@ -9,8 +9,7 @@ if (isset($_POST['submit'])) {
 
     //Check if email is valid
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: ../register.php?register=email");
-        echo "Not a valid email address.";
+        header("Location: ../register.php?register=Not a valid email address.");
         exit();
     } else {
         //Check if email is in database
@@ -18,19 +17,19 @@ if (isset($_POST['submit'])) {
         $result = mysqli_query($conn, $sql);
         $resultCheck = mysqli_num_rows($result);
         if ($resultCheck > 0) {
-            header("Location: ../register.php?register=error");
-            echo "Email already exists.";
+            header("Location: ../register.php?register=Email already exists");
             exit();
+
         } else {
-            if (!preg_match("/^.*(?=.{8,})(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).*$/", $pwd) === 0) {
+            //Check for password match
+            if (!($pwd == $pwd2) && empty($pwd)){
                 header("Location: ../register.php?register=password");
-                echo "Password must be at least 8 characters and must contain at least one lower case letter, one upper case letter and one digit.";
                 exit();
             } else {
-                if (!$pwd == $pwd2) {
-                    header("Location: ../register.php?register=password");
-                    exit();
-                } else {
+                //Check for valid password
+                $pwd = trim($pwd);
+                $pattern = "/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/";
+                if (preg_match($pattern, $pwd)) {
                     //Hashing the password
                     $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
@@ -40,10 +39,15 @@ if (isset($_POST['submit'])) {
 
                     header("Location: ../register.php?register=success");
                     exit();
+                } else {
+                    header("Location: ../register.php?register=password");
+                    exit();
                 }
+
             }
         }
     }
+
 
 } else {
     header("Location: ../register.php");
