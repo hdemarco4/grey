@@ -13,9 +13,15 @@ if (isset($_POST['submit'])) {
         exit();
     } else {
         //Check if email is in database
-        $sql = "SELECT * FROM users WHERE email='$email'";
-        $result = mysqli_query($conn, $sql);
+        $sql = "SELECT * FROM users WHERE email=?";
+
+        $stmt = mysqli_stmt_init($conn);
+        mysqli_stmt_prepare($stmt, $sql);
+        mysqli_stmt_bind_param($stmt, "s", $email);
+        mysqli_stmt_execute($stmt);
+        $result = mysqli_stmt_get_result($stmt);
         $resultCheck = mysqli_num_rows($result);
+
         if ($resultCheck > 0) {
             header("Location: ../register.php?register=Email already exists");
             exit();
