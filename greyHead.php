@@ -27,9 +27,15 @@ session_start();
         <div class="login">
             <?php
                 if(isset($_SESSION['u_email'])){
-                    echo '<form action="includes/logout.inc.php" method="POST">
+                    echo '<form action="includes/logout.inc.php" method="POST" style="float: right; margin-left: 20px">
                             <button type="submit" name="submit">Logout</button>
                            </form>';
+
+                    ?>
+
+                    <a href="userProfile.php">User Profile</a>
+
+            <?php
 
                 }else {
                     echo '<form action="includes/login.inc.php" method="POST">

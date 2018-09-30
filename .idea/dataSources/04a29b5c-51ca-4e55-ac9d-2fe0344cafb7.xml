@@ -1062,7 +1062,13 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="260" parent="243" name="PRIMARY">
+    <column id="260" parent="243" name="terms">
+      <Position>5</Position>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="261" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

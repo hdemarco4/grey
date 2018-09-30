@@ -8,7 +8,15 @@ include_once 'greyHead.php';
         ?>
 
         <div class="column middle">
+            <?php
+            if(isset($_SESSION['u_email'])) {
+                echo "You are logged in";
+                echo '<br />';
 
+                echo $_SESSION['u_email'];
+            }
+
+            ?>
 
         </div>
 

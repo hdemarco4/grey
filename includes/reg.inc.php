@@ -6,6 +6,12 @@ if (isset($_POST['submit'])) {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
     $pwd2 = mysqli_real_escape_string($conn, $_POST['pwd2']);
+    $ter = $_POST['terms'];
+
+    if(!$ter == 1){
+        header("Location: ../register.php?register=terms");
+        exit();
+    }
 
     //Check if email is valid
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -40,7 +46,7 @@ if (isset($_POST['submit'])) {
                     $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
                     //Insert the user into the database
-                    $sqlInsert = "INSERT INTO users (email, password, active) VALUES ('$email', '$hashedPwd', 1);";
+                    $sqlInsert = "INSERT INTO users (email, password, active, terms) VALUES ('$email', '$hashedPwd', 1, '$ter');";
                     mysqli_query($conn, $sqlInsert);
 
                     header("Location: ../register.php?register=success");

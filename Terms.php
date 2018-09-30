@@ -9,7 +9,7 @@ include_once 'greyHead.php';
     ?>
 
     <div class="column middle">
-        <h2>Terms & Privacy</h2>
+        <h2>Terms and Conditions</h2>
         <p></p>
     </div>
 
