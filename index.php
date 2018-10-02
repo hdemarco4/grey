@@ -23,7 +23,9 @@
                 echo '<br />';
 
             }
+        echo '<hr width=100%  align=center>';
         ?>
+        <a href="newsArchive.php">Archive</a>
 
         <?php
             if(isset($_SESSION['u_email'])) {
