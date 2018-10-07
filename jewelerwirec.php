@@ -8,12 +8,12 @@ include_once 'greyHead.php';
     ?>
 
     <div class="column middle">
-        <h1>Wire Wrapped Creations</h1>
+        <h1>Copper Wire Wraps</h1>
 
         <?php
         include_once 'includes/dbh.inc.php';
 
-        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE type LIKE 'wired'";
+        $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE type LIKE 'wired-copper'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {

@@ -11,17 +11,7 @@ include_once 'greyHead.php';
         <?php
         $id = $_GET["id"];
 
-        $servername = "localhost:3306";
-        $username = "root";
-        $password = "";
-        $dbname = "working";
-
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
+        include_once 'includes/dbh.inc.php';
 
         $sql = mysqli_query($conn,"SELECT * FROM products WHERE id='$id'");
         $row = mysqli_fetch_row($sql);
