@@ -21,12 +21,15 @@ include_once 'greyHead.php';
         $wholesale = $row[3];
         $retail = $row[4];
         $length = $row[6];
-        $alt_name = $row[8];
+        $alt_name = $row[1];
         $pic_url = 'pics/' . $row[0] . ' ';
-        $doc_url = 'docs/' . $row[0] . ' ';
-        $etsy = $row[9];
+        $doc_url = 'docs/' . $row[0];
+        $etsy = $row[8];
 
-        $desc = $doc_url . 'd.txt';
+        if(strlen($doc_url) > 11) {
+            $doc_url = substr($doc_url, 0, 11);
+        }
+        $desc = $doc_url . ' d.txt';
 
         ?>
 

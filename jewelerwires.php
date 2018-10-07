@@ -13,7 +13,7 @@ include_once 'greyHead.php';
             <?php
             include_once 'includes/dbh.inc.php';
 
-            $sql = "SELECT name, id, etsy_page, alt_name, ind_page FROM products WHERE type LIKE 'wired-silver'";
+            $sql = "SELECT name, id, etsy_page, ind_page FROM products WHERE type LIKE 'wired-silver'";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -22,17 +22,17 @@ include_once 'greyHead.php';
                     $n = $row["name"];
                     $p = 'pics/' . $row["id"] . ' c';
                     $e = $row["etsy_page"];
-                    $a = $row["alt_name"];
+                    $a = $row["name"];
                     $i = $row["ind_page"];
                     $qs = glob($p . "*.{png,JPG,jpg,PNG}",GLOB_BRACE );
                     foreach($qs as $q){
                         ?>
 
                         <div class="gallery">
-                            <a target="_blank" href="<?php echo $i ?>">
+                            <a href="<?php echo $i ?>">
                                 <img src="<?php echo $q ?>" alt="<?php echo $a ?>" width="300" height="200">
                             </a>
-                            <a target="_blank" href="<?php echo $i ?>">
+                            <a href="<?php echo $i ?>">
                                 <div class="desc"><?php echo $n ?></div>
                             </a>
                         </div>
