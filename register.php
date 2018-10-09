@@ -15,7 +15,7 @@ include_once 'greyHead.php';
                 <input type="password" name="pwd" placeholder="Enter password" required>
                 <input type="password" name="pwd2" placeholder="Enter password again" required>
 
-                <input type="checkbox" name="terms" value=1 required>Read the <a href="Terms.php" target="_blank">Terms and Conditions</a>.<br>
+                <input type="checkbox" name="terms" value=1 required>Reviewed the <a href="Privacy.php" target="_blank">Privacy Policy</a> / <a href="Terms.php" target="_blank">Terms and Conditions</a><br>
 
                 <button type="submit" name="submit">Register</button>
 

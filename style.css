@@ -109,6 +109,14 @@ header .login a {
 }
 /*End Columns*/
 
+
+/*Footer*/
+footer {
+    width: 100%;
+    height: auto;
+}
+/*End Footer*/
+
 /* Navigation Bar */
 ul {
     list-style-type: none;

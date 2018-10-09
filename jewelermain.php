@@ -12,22 +12,22 @@ include_once 'greyHead.php';
 
         <a href="jewelerbead.php">
             <p>Beaded Creations</p>
-            <img src="imgs/uni.gif" alt="Snowflake Necklace" width="400" >
+            <img src="imgs/bead.gif" alt="Snowflake Necklace" width="400" >
         </a>
 
         <a href="jewelerwirec.php">
             <p>Copper Wire Wraps</p>
-            <img src="imgs/wire.gif" alt="Wire Wrapped Donut Necklace" width="400" >
+            <img src="imgs/copper%20wire.png" alt="Wire Wrapped Donut Necklace" width="400" >
         </a>
 
         <a href="jewelerwires.php">
             <p>Silver Wire Wraps</p>
-            <img src="" alt="Wire Wrapped Donut Necklace" width="400" >
+            <img src="imgs/silver%20wire.png" alt="Wire Wrapped Donut Necklace" width="400" >
         </a>
 
         <a href="jewelerwireb.php">
             <p>Bronze Wire Wraps</p>
-            <img src="" alt="Wire Wrapped Donut Necklace" width="400" >
+            <img src="imgs/bronze%20wire.png" alt="Wire Wrapped Donut Necklace" width="400" >
         </a>
 
     </div>
