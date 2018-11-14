@@ -12,6 +12,12 @@ session_start();
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NGQwMWJhZDYtYTgzYy00MDY2LWEyMTgtMTA2ZGYyYmFkZTUwNjM2Nzc1NzUxMjIxNTQ4NzM3"></script>
+
+    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -26,11 +32,13 @@ session_start();
             <?php
                 if(isset($_SESSION['u_email'])){
                     echo '<form action="includes/logout.inc.php" method="POST" style="float: right; margin-left: 20px">
+                            
                             <button type="submit" name="submit">Logout</button>
                            </form>';
 
                     ?>
 
+                    <a href="#" class="snipcart-checkout">Click here to checkout</a>
                     <a href="userProfile.php">User Profile</a>
 
             <?php
@@ -47,9 +55,8 @@ session_start();
                 }
             ?>
 
-
-
         </div>
+
 
     </div>
 

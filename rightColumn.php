@@ -1,5 +1,13 @@
 <div class="column right">
 
+    <div class="media">
+
+        <a href="https://www.pinterest.com/greyravenscastle" target="_blank"><img src="imgs/pintrest.png" alt="Pintrest" ></a>
+
+        <a href="https://twitter.com/GreyRavensCast1" target="_blank"><img src="imgs/Twitter.png" alt="Twitter" ></a>
+
+    </div>
+
     <ul>
         <li><a href="index.php">Home</a></li>
         <li class="dropdown">

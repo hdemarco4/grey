@@ -16,6 +16,7 @@ include_once 'greyHead.php';
         $sql = mysqli_query($conn,"SELECT * FROM products WHERE id='$id'");
         $row = mysqli_fetch_row($sql);
 
+        $id = $row[0];
         $name = $row[1];
         $quantity = $row[2];
         $wholesale = $row[3];
@@ -38,6 +39,7 @@ include_once 'greyHead.php';
             <p><a target="_blank" href="<?php echo $etsy ?>">Check out this product's Etsy page!</a></p>
             <p>The price for this piece is $<?php echo $retail?></p>
             <p><?php echo file_get_contents($desc)?></p>
+
 
         <?php
 
