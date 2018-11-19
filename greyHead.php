@@ -28,35 +28,18 @@ session_start();
             <img src="imgs/mylogo.gif" alt="Logo">
         </a>
 
-        <div class="login">
-            <?php
-                if(isset($_SESSION['u_email'])){
-                    echo '<form action="includes/logout.inc.php" method="POST" style="float: right; margin-left: 20px">
-                            
-                            <button type="submit" name="submit">Logout</button>
-                           </form>';
 
-                    ?>
+            <div class="snipcart-summary">
 
-                    <a href="#" class="snipcart-checkout">Click here to checkout</a>
-                    <a href="userProfile.php">User Profile</a>
+                <p><a href="#" class="snipcart-edit-profile">User Profile</a>
+                    <a href="#" class="snipcart-user-logout" style="float: right">Logout</a></p>
 
-            <?php
+                <p>Number of items: <span class="snipcart-total-items"></span>
+                    Total price: <span class="snipcart-total-price"></span></p>
 
-                }else {
-                    echo '<form action="includes/login.inc.php" method="POST">
-                            <input type="text" placeholder="Enter Email" name="email" required>
-                            <input type="password" placeholder="Enter Password" name="pwd" required>
+                <p><a href="#" class="snipcart-checkout">Click here to checkout</a></p>
 
-                            <button type="submit" name="submit">Login</button>
-
-                           </form>
-                           <a href="register.php"><button name="register">Register</button></a>';
-                }
-            ?>
-
-        </div>
-
+            </div>
 
     </div>
 

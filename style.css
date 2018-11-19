@@ -21,62 +21,11 @@ header {
     overflow: hidden;
 }
 
-header .login {
+header .snipcart-summary {
     float: right;
-    margin-top: 20px;
-    margin-right: 50px;
 }
 
-header .login form {
-    float: left;
-}
-
-header .login form input:hover{
-    background: #f1f1f1;
-}
-
-header .login form button, header .login button {
-    background: #f1f1f1;
-    cursor: pointer;
-}
-
-header .login form button:hover, header .login button:hover {
-    background: #d8d8d8;
-}
-
-header .login a {
-    margin-left: 7px;
-}
 /*End Header*/
-
-/*Register Form*/
-.regForm {
-    width: auto;
-    padding-top: 30px;
-}
-
-.regForm input{
-    margin-top: 15px;
-    margin-right: 10px;
-    width: 50%;
-    height: 30px;
-}
-
-.regForm input:hover {
-    background: #f1f1f1;
-}
-
-.regForm button {
-    background: #f1f1f1;
-    cursor: pointer;
-}
-
-.regForm button:hover {
-    background: #d8d8d8;
-}
-
-/*End Register Form*/
-
 
 /* Create three unequal columns that floats next to each other */
 .column {
