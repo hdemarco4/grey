@@ -1,47 +1,23 @@
-<?php
-session_start();
-?>
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Grey Raven's Castle</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-
-    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NGQwMWJhZDYtYTgzYy00MDY2LWEyMTgtMTA2ZGYyYmFkZTUwNjM2Nzc1NzUxMjIxNTQ4NzM3"></script>
-
-    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-
-</head>
-
-<body>
-
-<header>
-    <div class="wrapper-one">
-        <a href="index.php" style="float: left">
-            <img src="imgs/mylogo.gif" alt="Logo">
-        </a>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins&display=swap" rel="stylesheet">
+  <meta name="google-site-verification" content="6Rj7lyLS9Dgs06JpML91i9KD1V15Kpgbfm5za0mLMfo" />
+  <meta property="og:url" content="https://greyravenscastle.com/">
+  <meta name="keywords" content="Grey, Raven, Castle, Wire, Wrapped, Jewelry">
+  <meta property="og:image" content="https://greyravenscastle.com/imgs/smalllogo.gif">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://app.snipcart.com">
+  <link rel="preconnect" href="https://cdn.snipcart.com">
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
 
 
-            <div class="snipcart-summary">
-
-                <p><a href="#" class="snipcart-edit-profile">User Profile</a>
-                    <a href="#" class="snipcart-user-logout" style="float: right">Logout</a></p>
-
-                <p>Number of items: <span class="snipcart-total-items"></span>
-                    Total price: <span class="snipcart-total-price"></span></p>
-
-                <p><a href="#" class="snipcart-checkout">Click here to checkout</a></p>
-
-            </div>
-
-    </div>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
 
-</header>
