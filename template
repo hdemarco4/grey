@@ -1,0 +1,39 @@
+<?php
+    include_once 'greyHead.php';
+    ?>
+
+
+  <title>Change Title</title>
+  <meta name="description"
+    content="Change description">
+  <meta property="og:title" content="Change Title">
+  <meta property="og:description"
+    content="Change description">
+</head>
+
+<body>
+
+  <?php
+        include_once 'greyheader.php';
+  ?>
+
+  <main class="container">
+    <div class="row">
+    <?php
+        include_once 'greyleft.php';
+    ?>
+
+      <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
+        <p>Put stuff here.</p>
+
+      </div>
+
+      <?php
+        include_once 'greyright.php';
+    ?>
+    </div>
+  </main>
+
+  <?php
+    include_once 'greyFoot.php';
+    ?>
