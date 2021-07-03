@@ -4,9 +4,9 @@
 
 
 <title>Grey Raven's Castle - Product</title>
-<meta name="description" content="Change">
+<meta name="description" content="An antiqued silver-tone leaf pendant on a chain, with a small leaf bead and a green dangling bead.">
 <meta property="og:title" content="Grey Raven's Castle - Product">
-<meta property="og:description" content="Change">
+<meta property="og:description" content="An antiqued silver-tone leaf pendant on a chain, with a small leaf bead and a green dangling bead.">
 </head>
 
 <body>
@@ -22,18 +22,18 @@
     ?>
 
       <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
-        <h3> NAME </h3>
+        <h3> 1 3/8 long Leaf pendant with green </h3>
 
 
 
-        <p>The price for this piece is $PRICE</p>
+        <p>The price for this piece is $15.00</p>
         <button class="snipcart-add-item btn btn-outline-dark prod" 
-          data-item-id="ID" 
-          data-item-name="NAME" 
-          data-item-price="PRICE"
-          data-item-url="URL" 
-          data-item-description="description"
-          data-item-image="../pics/ID c.JPG" 
+          data-item-id="H10003" 
+          data-item-name="1 3/8 long Leaf pendant with green" 
+          data-item-price="15.00"
+          data-item-url="https://greyravenscastle.com/HJewelry/H10003.php" 
+          data-item-description="An antiqued silver-tone leaf pendant on a chain, with a small leaf bead and a green dangling bead."
+          data-item-image="../pics/H10003 c.JPG" 
           data-item-weight="85" 
           data-item-width="12"
           data-item-length="20" 
@@ -43,7 +43,7 @@
         </button>
 
 
-        <p>Product description</p>
+        <p>An antiqued silver-tone leaf pendant on a chain, with a small leaf bead and a green dangling bead.</p>
 
 
 
@@ -51,19 +51,19 @@
             <div class="row card-group">
               <div class="col">
                   <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID c.jpg" class="card-img-top" alt="DESC">
+                    <img src="../pics/H10003 c.jpg" class="card-img-top" alt="1 3/8 long Leaf pendant with green">
                   </div>
               </div>
 
               <div class="col">
                   <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID f.jpg" class="card-img-top" alt="DESC">
+                    <img src="../pics/H10003 f.jpg" class="card-img-top" alt="1 3/8 long Leaf pendant with green">
                   </div>
               </div>
 
               <div class="col">
                   <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID q.jpg" class="card-img-top" alt="DESC">
+                    <img src="../pics/H10003 q.jpg" class="card-img-top" alt="1 3/8 long Leaf pendant with green">
                   </div>
               </div>
             </div>
