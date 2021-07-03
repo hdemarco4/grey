@@ -4,9 +4,9 @@
 
 
 <title>Grey Raven's Castle - Product</title>
-<meta name="description" content="Change">
+<meta name="description" content="A blue clay pendant with 3 embedded stones on a blue ribbon.">
 <meta property="og:title" content="Grey Raven's Castle - Product">
-<meta property="og:description" content="Change">
+<meta property="og:description" content="A blue clay pendant with 3 embedded stones on a blue ribbon.">
 </head>
 
 <body>
@@ -22,18 +22,18 @@
     ?>
 
       <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
-        <h3> NAME </h3>
+        <h3> Blue clay pendant 1 1/2 long </h3>
 
 
 
-        <p>The price for this piece is $PRICE</p>
+        <p>The price for this piece is $15.00</p>
         <button class="snipcart-add-item btn btn-outline-dark prod" 
-          data-item-id="ID" 
-          data-item-name="NAME" 
-          data-item-price="PRICE"
-          data-item-url="URL" 
-          data-item-description="description"
-          data-item-image="../pics/ID c.JPG" 
+          data-item-id="H10011" 
+          data-item-name="Blue clay pendant 1 1/2 long" 
+          data-item-price="15.00"
+          data-item-url="https://greyravenscastle.com/HJewelry/H10011.php" 
+          data-item-description="A blue clay pendant with 3 embedded stones on a blue ribbon."
+          data-item-image="../pics/H10011 c.JPG" 
           data-item-weight="85" 
           data-item-width="12"
           data-item-length="20" 
@@ -43,7 +43,7 @@
         </button>
 
 
-        <p>Product description</p>
+        <p>A blue clay pendant with 3 embedded stones on a blue ribbon.</p>
 
 
 
@@ -51,25 +51,19 @@
             <div class="row card-group">
               <div class="col">
                   <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID c.jpg" class="card-img-top" alt="DESC">
+                    <img src="../pics/H10011 c.jpg" class="card-img-top" alt="Blue clay pendant 1 1/2 long">
                   </div>
               </div>
 
               <div class="col">
                   <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID b.jpg" class="card-img-top" alt="DESC">
+                    <img src="../pics/H10011 f.jpg" class="card-img-top" alt="Blue clay pendant 1 1/2 long">
                   </div>
               </div>
 
               <div class="col">
                   <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID f.jpg" class="card-img-top" alt="DESC">
-                  </div>
-              </div>
-
-              <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
-                    <img src="../pics/ID q.jpg" class="card-img-top" alt="DESC">
+                    <img src="../pics/H10011 q.jpg" class="card-img-top" alt="Blue clay pendant 1 1/2 long">
                   </div>
               </div>
             </div>
