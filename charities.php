@@ -3,12 +3,10 @@
     ?>
 
 
-  <title>Grey Raven's Castle - Charities</title>
-  <meta name="description"
-    content="This is a list of the charities that we support here at Grey Raven's Castle.">
-  <meta property="og:title" content="Grey Raven's Castle - Charities">
-  <meta property="og:description"
-    content="This is a list of the charities that we support here at Grey Raven's Castle.">
+<title>Grey Raven's Castle - Charities</title>
+<meta name="description" content="This is a list of the charities that we support here at Grey Raven's Castle.">
+<meta property="og:title" content="Grey Raven's Castle - Charities">
+<meta property="og:description" content="This is a list of the charities that we support here at Grey Raven's Castle.">
 </head>
 
 <body>
@@ -19,19 +17,43 @@
 
   <main class="container">
     <div class="row">
-    <?php
+      <?php
         include_once 'greyleft.php';
     ?>
 
       <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
         <h1>Charities</h1>
         <p>Here are some charities that we support.</p>
-        <p>
-            <a href="https://www.morrisanimalfoundation.org/">
-                <img src="imgs/MAF_White_Logo.png" alt="MAF_White_Logo" width="200" style="float: left;">
 
-            </a>
-        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+
+              <div class="card mb-4" style="width: 14rem;">
+                <img src="imgs/MAF_White_Logo.png" class="card-img-top" alt="https://www.morrisanimalfoundation.org/">
+                <div class="card-body text-center">
+                  <a href="https://www.morrisanimalfoundation.org/" class="btn btn-outline-dark stretched-link border-0">Donate</a>
+                </div>
+              </div>
+
+              <div class="card mb-4" style="width: 14rem;">
+                <img src="imgs/DFL-main-RGB.png" class="card-img-top" alt="https://www.ddfl.org/">
+                <div class="card-body text-center">
+                  <a href="https://www.ddfl.org/" class="btn btn-outline-dark stretched-link border-0">Donate</a>
+                </div>
+              </div>
+
+              <div class="card mb-4" style="width: 14rem;">
+                <img src="imgs/aspca-logo-square.png" class="card-img-top" alt="https://www.aspca.org/">
+                <div class="card-body text-center">
+                  <a href="https://www.aspca.org/" class="btn btn-outline-dark stretched-link border-0">Donate</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
 
       </div>
 

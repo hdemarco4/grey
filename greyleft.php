@@ -10,7 +10,7 @@
       </div>
 
       <a  target="_blank" href="https://www.etsy.com/shop/GreyRavensCastle">
-          <img src="imgs/etsy logo.jpg" class="pt-2" alt="Etsy Logo">
+          <img src="imgs/etsy logo.jpg" class="pt-2 mw-100" alt="Etsy Logo">
       </a>
 
       </div>
