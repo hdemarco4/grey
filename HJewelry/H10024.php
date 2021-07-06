@@ -45,44 +45,44 @@
         </button>
 
 
-        <p>A silver tone chain necklace with a dangle of filigree and crystal beads.  There are four colors to chose from: Blue, Green, Pink, and Yellow.</p>
+        <p>A silver tone chain necklace with a dangle of filigree and crystal beads.  There are four colors to chose from: Blue, Green, Pink, and Yellow. The necklace is 18 1/2 inches long.</p>
 
 
 
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10024 c.jpg" class="card-img-top" alt="Silver lariat style necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10024 -1 f.jpg" class="card-img-top" alt="Silver lariat style necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10024 q.jpg" class="card-img-top" alt="Silver lariat style necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10024 -1 c.jpg" class="card-img-top" alt="Gunmetal lariat style necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10024 -3 c.jpg" class="card-img-top" alt="Gunmetal lariat style necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10024 -4 c.jpg" class="card-img-top" alt="Gunmetal lariat style necklace">
                   </div>
               </div>

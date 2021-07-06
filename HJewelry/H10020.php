@@ -45,32 +45,32 @@
         </button>
 
 
-        <p>Triquetra pendent with a glass bead connected with wire. There are three colors to chose from: Green, Yellow, and Purple.  Cotton cord.</p>
+        <p>Triquetra pendent with a glass bead connected with wire. There are three colors to chose from: Green, Yellow, and Purple.  Cotton cord, 18 1/2 inches long.</p>
 
 
 
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10020 c.jpg" class="card-img-top" alt="Triquetra drop necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10020 q.jpg" class="card-img-top" alt="Triquetra drop necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10020 -2 c.jpg" class="card-img-top" alt="Triquetra drop necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10020 -3 c.jpg" class="card-img-top" alt="Triquetra drop necklace">
                   </div>
               </div>

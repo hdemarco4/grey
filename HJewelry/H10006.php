@@ -50,19 +50,19 @@
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10006 c.jpg" class="card-img-top" alt="1 5/8 long Wing pendant with purple">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10006 f.jpg" class="card-img-top" alt="1 5/8 long Wing pendant with purple">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10006 q.jpg" class="card-img-top" alt="1 5/8 long Wing pendant with purple">
                   </div>
               </div>

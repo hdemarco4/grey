@@ -29,21 +29,21 @@
           <div class="row">
             <div class="col">
 
-              <div class="card mb-4" style="width: 14rem;">
+              <div class="card mb-4 border-0" style="width: 14rem;">
                 <img src="imgs/MAF_White_Logo.png" class="card-img-top" alt="https://www.morrisanimalfoundation.org/">
                 <div class="card-body text-center">
                   <a href="https://www.morrisanimalfoundation.org/" class="btn btn-outline-dark stretched-link border-0" target="_blank">Donate</a>
                 </div>
               </div>
 
-              <div class="card mb-4" style="width: 14rem;">
+              <div class="card mb-4 border-0" style="width: 14rem;">
                 <img src="imgs/DFL-main-RGB.png" class="card-img-top" alt="https://www.ddfl.org/">
                 <div class="card-body text-center">
                   <a href="https://www.ddfl.org/" class="btn btn-outline-dark stretched-link border-0" target="_blank">Donate</a>
                 </div>
               </div>
 
-              <div class="card mb-4" style="width: 14rem;">
+              <div class="card mb-4 border-0" style="width: 14rem;">
                 <img src="imgs/aspca-logo-square.png" class="card-img-top" alt="https://www.aspca.org/">
                 <div class="card-body text-center">
                   <a href="https://www.aspca.org/" class="btn btn-outline-dark stretched-link border-0" target="_blank">Donate</a>

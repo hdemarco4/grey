@@ -55,6 +55,7 @@ footer {
 
 
 
+
 .card-body .btn-outline-dark {
     font-family: 'Crimson Text', serif;
     font-size: 1.3rem;
@@ -93,7 +94,14 @@ textarea {
     font-family: 'Poppins', sans-serif;
 }
 
+.gallery2 {
+    transition: transform .2s;
+}
 
+.gallery2:hover {
+    transform: scale(2);
+    z-index: 5;
+}
 
 #snipcart {
     /* ----------------- 

@@ -54,25 +54,25 @@
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10053 c.jpg" class="card-img-top" alt="Stone donut pendent wrapped with bronze 2">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10053 b.jpg" class="card-img-top" alt="Stone donut pendent wrapped with bronze 2">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10053 f.jpg" class="card-img-top" alt="Stone donut pendent wrapped with bronze 2">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10053 q.jpg" class="card-img-top" alt="Stone donut pendent wrapped with bronze 2">
                   </div>
               </div>

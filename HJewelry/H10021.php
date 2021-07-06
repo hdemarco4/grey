@@ -43,26 +43,26 @@
         </button>
 
 
-        <p>Branch pendent with red beads connected with green wire.  Cotton cord.</p>
+        <p>Branch pendent with red beads connected with green wire. The pendent measures 1in by 1 3/4in.  Cotton cord, 18 inches long.</p>
 
 
 
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10021 c.jpg" class="card-img-top" alt="Branch drop necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10021 f.jpg" class="card-img-top" alt="Branch drop necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10021 q.jpg" class="card-img-top" alt="Branch drop necklace">
                   </div>
               </div>

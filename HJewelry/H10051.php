@@ -54,31 +54,31 @@
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10051 ct.jpg" class="card-img-top" alt="Purple stone w/black donut wrapped with silver wire">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10051 t.jpg" class="card-img-top" alt="Purple stone w/black donut wrapped with silver wire">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10051 b.jpg" class="card-img-top" alt="Purple stone w/black donut wrapped with silver wire">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10051 f.jpg" class="card-img-top" alt="Purple stone w/black donut wrapped with silver wire">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10051 q.jpg" class="card-img-top" alt="Purple stone w/black donut wrapped with silver wire">
                   </div>
               </div>
