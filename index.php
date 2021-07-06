@@ -23,7 +23,7 @@
         include_once 'greyleft.php';
     ?>
 
-      <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
+      <div class="col middle py-3 ps-4 border-sm-bottom border-md-bottom-0">
         <p>This is a castle filled with craftsmen and story tellers. It starts with just a few rooms but will
           continue
           to grow.</p>

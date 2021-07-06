@@ -66,6 +66,35 @@ footer {
     font-size: 1rem;
 }
 
+
+.inputwrapper {
+    margin-bottom: 20px;
+
+}
+
+input[type=text], input[type=email]{
+    padding: 12px 20px;
+    width: 75%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    
+}
+
+textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.mybutton {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 #snipcart {
     /* ----------------- 
         Colors

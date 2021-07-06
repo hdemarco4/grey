@@ -21,7 +21,7 @@
         include_once 'greyleft.php';
     ?>
 
-      <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
+      <div class="col middle py-3 ps-4 border-sm-bottom border-md-bottom-0">
         <h1>Silver Wire Wraps</h1>
 
         <div class="container">
