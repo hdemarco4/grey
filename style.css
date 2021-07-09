@@ -103,6 +103,7 @@ textarea {
     z-index: 5;
 }
 
+
 #snipcart {
     /* ----------------- 
         Colors
@@ -151,7 +152,7 @@ textarea {
     --color-buttonSecondary-error: var(--color-error);
 
     --color-buttonDanger: var(--color-error);
-    --color-buttonDanger-hover: hsl(6, 55%, 70%);
+    --color-buttonDanger-hover: #000000;
     --color-buttonDanger-active: var(--color-buttonDanger);
     --color-buttonDanger-focus: var(--color-buttonDanger);
     --color-buttonDanger-disabled: hsl(210, 10%, 25%);
@@ -202,7 +203,7 @@ textarea {
         Background colors
     ----------------- */
     --bgColor-default: #8e87aa;
-    --bgColor-alt: #9894aa;
+    --bgColor-alt: #757283;
     --bgColor-success: hsl(144, 69%, 39%);
     --bgColor-error: hsl(6, 45%, 56%);
     --bgColor-info: #8e87aa;
@@ -221,7 +222,7 @@ textarea {
     --bgColor-input-checked: var(--borderColor-input-hover);
     --bgColor-input-disabled: hsl(210, 10%, 14%);
     --bgColor-input-error: var(--bgColor-input);
-    --bgColor-input-autofill: hsl(0, 0%, 0%);
+    --bgColor-input-autofill: hsl(0, 0%, 38%);
 
     --bgColor-buttonPrimary: #bebbcd;
     --bgColor-buttonPrimary-hover: #8e87aa;

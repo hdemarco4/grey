@@ -27,7 +27,7 @@
 
         <h1>Contact Us</h1>
 
-        <form action="includes/mail.php" method="post">
+        <form action="includes/mail.php" method="post" class="mb-5">
 
           <div class="inputwrapper row mb-3">
             <label for="name" class="col-sm-2 newline">Name</label>
@@ -52,6 +52,8 @@
 
         </form>
 
+        <p>If the form isn't working, email us at <a href="mailto:greyraven1@gmail.com?Subject=Web Contact" target="_blank">greyraven1@gmail.com</a></p>
+        
         </div>
 
       <?php

@@ -38,7 +38,7 @@
           data-item-width="12"
           data-item-length="20" 
           data-item-height="2" 
-          data-item-max-quantity="5"
+          data-item-max-quantity="1"
           data-item-stackable="never"
           data-item-custom1-name="Color"
           data-item-custom1-options="Black|Green|Yellow|Red|Blue">
