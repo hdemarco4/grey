@@ -43,26 +43,26 @@
         </button>
 
 
-        <p>5 Snow flake charms on a chain.  Blue crystals accent the snow flakes.</p>
+        <p>5 Snow flake charms on a chain.  Blue crystals accent the snow flakes. The necklace is 18 1/2 inches long.</p>
 
 
 
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10019 c.jpg" class="card-img-top" alt="Snow flake necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10019 f.jpg" class="card-img-top" alt="Snow flake necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10019 q.jpg" class="card-img-top" alt="Snow flake necklace">
                   </div>
               </div>

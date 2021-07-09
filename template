@@ -23,7 +23,7 @@
         include_once 'greyleft.php';
     ?>
 
-      <div class="col middle pt-3 ps-4 border-sm-bottom border-md-bottom-0">
+      <div class="col middle py-3 ps-4 border-sm-bottom border-md-bottom-0">
         <p>Put stuff here.</p>
 
       </div>

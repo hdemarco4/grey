@@ -45,44 +45,44 @@
         </button>
 
 
-        <p>This necklace is made with all glass beads and comes in four colors: green, yellow, red, and blue.</p>
+        <p>This necklace is made with all glass beads and comes in four colors: green, yellow, red, and blue. The necklace is 16 1/2 inches long.</p>
 
 
 
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10022 c.jpg" class="card-img-top" alt="Asymetrical necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10022 q.jpg" class="card-img-top" alt="Asymetrical necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10022 -1 f.jpg" class="card-img-top" alt="Asymetrical necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10022 -2 f.jpg" class="card-img-top" alt="Asymetrical necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10022 -3 f.jpg" class="card-img-top" alt="Asymetrical necklace">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10022 -4 f.jpg" class="card-img-top" alt="Asymetrical necklace">
                   </div>
               </div>

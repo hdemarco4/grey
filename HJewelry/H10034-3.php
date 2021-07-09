@@ -38,7 +38,7 @@
           data-item-width="12"
           data-item-length="20" 
           data-item-height="2" 
-          data-item-max-quantity="5"
+          data-item-max-quantity="1"
           data-item-stackable="never"
           data-item-custom1-name="Color"
           data-item-custom1-options="Black|Green|Yellow|Red|Blue">
@@ -56,61 +56,61 @@
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-1 bc.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-1 q.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-2 bc.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-2 q.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-3 bc.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-3 q.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-4 bc.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-4 q.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-5 bc.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10034-3-5 q.jpg" class="card-img-top" alt="Spiral earrings-Bronze">
                   </div>
               </div>

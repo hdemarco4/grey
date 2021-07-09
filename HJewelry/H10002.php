@@ -50,19 +50,19 @@
           <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10002 c.jpg" class="card-img-top" alt="1 3/8 long Leaf pendant with yellow">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10002 f.jpg" class="card-img-top" alt="1 3/8 long Leaf pendant with yellow">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10002 q.jpg" class="card-img-top" alt="1 3/8 long Leaf pendant with yellow">
                   </div>
               </div>

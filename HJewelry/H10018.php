@@ -50,19 +50,19 @@
         <div class="container">
             <div class="row card-group">
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10018 c.jpg" class="card-img-top" alt="Purple clay pendant 1 1/2 long, round">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10018 f.jpg" class="card-img-top" alt="Purple clay pendant 1 1/2 long, round">
                   </div>
               </div>
 
               <div class="col">
-                  <div class="card mb-4" style="width: 14rem;">
+                  <div class="card mb-4 gallery2 border-0" style="width: 14rem;">
                     <img src="../pics/H10018 q.jpg" class="card-img-top" alt="Purple clay pendant 1 1/2 long, round">
                   </div>
               </div>
